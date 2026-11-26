@@ -1,0 +1,34 @@
+﻿
+# --- Modelos de Lenguaje y Pesos IA ---
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.h5
+*.ckpt
+*.tflite
+models/
+checkpoints/
+weights/
+
+# --- Entornos y Secretos ---
+.env
+venv/
+.venv/
+__pycache__/
+node_modules/
+.venv/Lib/site-packages/torch/lib/torch_cpu.dll
+models/cyberrealistic-v3.3-inpainting/text_encoder/pytorch_model.bin
+models/cyberrealistic-v3.3-inpainting/unet/diffusion_pytorch_model.bin
+models/cyberrealistic-v3.3-inpainting/vae/diffusion_pytorch_model.bin
+models/deliberate-v3-inpainting/text_encoder/model.safetensors
+models/deliberate-v3-inpainting/unet/diffusion_pytorch_model.safetensors
+models/deliberate-v3-inpainting/vae/diffusion_pytorch_model.safetensors
+models/dreamshaper-8-inpainting/text_encoder/model.safetensors
+models/dreamshaper-8-inpainting/unet/diffusion_pytorch_model.safetensors
+models/dreamshaper-8-inpainting/vae/diffusion_pytorch_model.safetensors
+models/realistic-vision-v6-inpainting/text_encoder/model.safetensors
+models/realistic-vision-v6-inpainting/unet/diffusion_pytorch_model.bin
+models/realistic-vision-v6-inpainting/vae/diffusion_pytorch_model.safetensors
